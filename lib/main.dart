@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:snap_pay/src/config/router/app_router_cubit.dart';
 import 'package:snap_pay/src/config/theme/app_theme_cubit.dart';
 import 'package:snap_pay/src/settings/ui/settings_screen.dart';
 import 'package:snap_pay_local_storage_api/snap_pay_local_storage_api.dart';
@@ -33,6 +34,7 @@ class Blocs extends StatelessWidget {
                 snapPayApi: context.read<SnapPayLocalStorageApi>(),
               ),
         ),
+        BlocProvider(create: (context) => AppRouterCubit()),
         BlocProvider(
           create:
               (context) =>
@@ -51,12 +53,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final appThemeCubit = context.watch<AppThemeCubit>().state;
+    final appRouter = context.watch<AppRouterCubit>().state;
 
-    return MaterialApp(
+    return MaterialApp.router(
+      routerConfig: appRouter,
       title: 'Snap Pay',
       debugShowCheckedModeBanner: false,
       theme: appTheme(appThemeCubit),
-      home: const SettingsScreen(),
     );
   }
 }
