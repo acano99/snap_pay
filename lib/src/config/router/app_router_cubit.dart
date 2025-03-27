@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:snap_pay/src/payment_methods/ui/payment_method_home_screen.dart';
+import 'package:snap_pay/src/payment_methods/ui/home/payment_method_home_screen.dart';
 import 'package:snap_pay/src/settings/ui/settings_screen.dart';
 import 'package:snap_pay/src/start_screen.dart';
 import 'routes.dart';
