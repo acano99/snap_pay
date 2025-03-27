@@ -8,3 +8,7 @@ environment:
 dependencies:
   snap_pay_api:
     path: ../snap_pay_api
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  json_serializable: ^6.9.4

@@ -4,3 +4,7 @@ publish_to: none
 
 environment:
   sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  snap_pay_api:
+    path: ../snap_pay_api
