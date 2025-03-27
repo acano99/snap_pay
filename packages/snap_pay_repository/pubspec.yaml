@@ -1,0 +1,6 @@
+name: snap_pay_repository
+description: Paquete de dart para manejar los repositorios de datos
+publish_to: none
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"

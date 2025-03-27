@@ -1,0 +1,10 @@
+name: snap_pay_api
+description: Paquete de dart para exponer la api que maneja las fuentes de datos
+publish_to: none
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  equatable: ^2.0.7
+  uuid: ^3.0.0

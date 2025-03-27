@@ -1,0 +1,6 @@
+name: snap_pay_local_storage_api
+description: Paquete de dart para gestionar el almacenamiento local
+publish_to: none
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
