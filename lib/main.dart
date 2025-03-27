@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:snap_pay/src/config/router/app_router_cubit.dart';
 import 'package:snap_pay/src/config/theme/app_theme_cubit.dart';
-import 'package:snap_pay/src/settings/ui/settings_screen.dart';
 import 'package:snap_pay_local_storage_api/snap_pay_local_storage_api.dart';
 import 'package:snap_pay_repository/snap_pay_repository.dart';
 
