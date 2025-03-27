@@ -5,4 +5,8 @@ part 'settings_state.dart';
 
 class SettingsCubit extends Cubit<SettingsState> {
   SettingsCubit() : super(SettingsInitial());
+
+  Future<void> share() async {}
+
+  void about() {}
 }
