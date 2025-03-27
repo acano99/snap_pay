@@ -39,6 +39,7 @@ dependencies:
   equatable: ^2.0.7
   go_router: ^14.8.1
   shared_preferences: ^2.5.3
+  auto_size_text: ^3.0.0
   snap_pay_api:
     path: packages/snap_pay_api
   snap_pay_local_storage_api:
