@@ -11,5 +11,5 @@ abstract class SnapPayApi {
 
   Future<bool> isDarkTheme();
 
-  Future<void> setDarkTheme();
+  Future<void> setDarkTheme(bool isDarkTheme);
 }
