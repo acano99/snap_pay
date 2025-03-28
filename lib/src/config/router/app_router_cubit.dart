@@ -17,7 +17,7 @@ final _goRouter = GoRouter(
           routes: [
             GoRoute(
               path: Routes.paymenMethodHome,
-              name: 'paymentMethods',
+              name: Routes.paymenMethodHome,
               builder: (context, state) => const PaymentMethodHomeScreen(),
             ),
           ],
@@ -26,7 +26,7 @@ final _goRouter = GoRouter(
           routes: [
             GoRoute(
               path: Routes.settings,
-              name: 'settings',
+              name: Routes.settings,
               builder: (context, state) => const SettingsScreen(),
             ),
           ],
