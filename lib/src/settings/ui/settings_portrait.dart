@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:snap_pay/src/config/componnents/not_implemented_dialog.dart';
 import 'package:snap_pay/src/config/theme/app_theme_cubit.dart';
 
 class SettingsPortrait extends StatelessWidget {
@@ -22,13 +23,21 @@ class SettingsPortrait extends StatelessWidget {
         _SettingsLisTile(
           name: "Compartir",
           description: "Compartir enlace de descarga de la aplicacion",
-          onTap: () {},
+          onTap:
+              () => showDialog(
+                context: context,
+                builder: (context) => NotImplementedDialog(),
+              ),
           icon: Icons.share_rounded,
         ),
         _SettingsLisTile(
           name: "Acerca de",
           description: "Conoce acerca de los desarrolladores",
-          onTap: () {},
+          onTap:
+              () => showDialog(
+                context: context,
+                builder: (context) => NotImplementedDialog(),
+              ),
           icon: Icons.help_rounded,
         ),
       ],
