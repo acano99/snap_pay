@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "snap_pay",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "snap_pay (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "snap_pay (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "snap_pay_api",
+            "cwd": "packages/snap_pay_api",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "snap_pay_local_storage_api",
+            "cwd": "packages/snap_pay_local_storage_api",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "snap_pay_repository",
+            "cwd": "packages/snap_pay_repository",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}
